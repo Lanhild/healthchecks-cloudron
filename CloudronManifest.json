@@ -1,0 +1,20 @@
+{
+    "id": "io.healthchecks.cloudronapp",
+    "title": "healthchecks",
+    "author": "SIA Monkey See Monkey Do",
+    "tagline": "Simple and Effective Cron Job Monitoring",
+    "version": "0.1.0",
+    "upstreamVersion": "3.1",
+    "healthCheckPath": "/",
+    "httpPort": 8000,
+    "addons": {
+        "localstorage": {},
+        "postgresql": {},
+        "sendmail": {}
+    },
+    "manifestVersion": 2,
+    "memoryLimit": 536870912,
+    "website": "https://healthchecks.io",
+    "contactEmail": "support@clourdon.io",
+    "minBoxVersion": "7.3.2"
+}
